@@ -34,8 +34,8 @@ namespace Problem_1
             }
             G11_arrayCombo.Add(txt_Dnombre.Text);
             cbo_Mdueño.Items.Clear();
-            foreach (string G5_ITEM in G11_arrayCombo)
-                cbo_Mdueño.Items.Add(G5_ITEM);
+            foreach (string G11_ITEM in G11_arrayCombo)
+                cbo_Mdueño.Items.Add(G11_ITEM);
             txt_Dnombre.Text = "";
             txt_Ddireccion.Text = "";
             txt_Dtelefono.Text = "";
